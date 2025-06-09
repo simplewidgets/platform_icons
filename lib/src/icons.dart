@@ -700,6 +700,17 @@ enum PlatformIcons {
       cupertino: CupertinoIcons.eye_slash,
       fluent: FluentIcons.eye_off_24_regular),
 
+  eyeDropper(
+      material: Icons.colorize_outlined,
+      cupertino: CupertinoIcons.eyedropper,
+      fluent: FluentIcons.eyedropper_24_regular,
+  ),
+
+  eyeDropperFilled(
+      material: Icons.colorize,
+      cupertino: CupertinoIcons.eyedropper_full,
+      fluent: FluentIcons.eyedropper_24_filled),  
+
   eyeOffFilled(
       material: Icons.visibility_off,
       cupertino: CupertinoIcons.eye_slash_fill,
@@ -1479,6 +1490,7 @@ enum PlatformIcons {
       material: Icons.confirmation_number,
       cupertino: CupertinoIcons.ticket_fill,
       fluent: FluentIcons.ticket_horizontal_24_filled),
+   
 
   tv(
       material: Icons.tv_outlined,
